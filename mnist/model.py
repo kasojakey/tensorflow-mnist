@@ -1,5 +1,7 @@
 import tensorflow as tf
+import keras
 
+print('keras version:', keras.__version__)
 
 # Softmax Regression Model
 def regression(x):
